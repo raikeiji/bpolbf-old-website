@@ -70,6 +70,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('boplbf')}}">{{ __('header.authority') }}</a>
                     </li>
+                      <!-- Menambahkan menu PPID -->
+            <li class="nav-item">
+                <a class="nav-link" href="https://ppid.labuanbajoflores.id/">PPID</a>
+            </li>
                     <li class="separator"></li>
                     @php $locale = session()->get('locale'); @endphp
                     <li class="nav-item dropdown langselect">
