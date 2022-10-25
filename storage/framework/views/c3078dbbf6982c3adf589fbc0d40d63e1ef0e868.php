@@ -394,8 +394,8 @@ LBFTA - News Release
         var uploadField = document.getElementById("dokumen_pdf");
 
         uploadField.onchange = function() {
-            if(this.files[0].size > 11000000){
-            alert("Ukuran File Terlalu Besar, Pastikan File Anda Kurang Dari 9 MB");
+            if(this.files[0].size > 2000000){
+            alert("Ukuran File Terlalu Besar, Pastikan File Anda Kurang Dari 2 MB");
             this.value = "";
             };
         };

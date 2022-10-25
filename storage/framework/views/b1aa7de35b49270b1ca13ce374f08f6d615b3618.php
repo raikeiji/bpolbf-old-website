@@ -78,6 +78,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo e(route('investasi')); ?>"><?php echo e(__('header.invest')); ?></a>
             </li>
+            <!-- Menambahkan menu PPID -->
+            <li class="nav-item">
+                <a class="nav-link" href="https://ppid.labuanbajoflores.id/">PPID</a>
+            </li>
             <li class="separator"></li>
             <?php $locale = session()->get('locale'); ?>
             <li class="nav-item dropdown langselect">
