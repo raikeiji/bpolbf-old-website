@@ -60,6 +60,10 @@
             <li class="nav-item">
             <a class="btn btn-action" type="submit" href="<?php echo e(route('online_booking')); ?>" >Registration</a>
             </li>
+              <!-- Menambahkan menu PPID -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://ppid.labuanbajoflores.id/">PPID</a>
+            </li>
             <li class="separator"></li>
             <?php $locale = session()->get('locale'); ?>
             <li class="nav-item dropdown langselect">
