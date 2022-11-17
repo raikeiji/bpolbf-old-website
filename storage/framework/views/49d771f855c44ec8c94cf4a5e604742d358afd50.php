@@ -26,6 +26,14 @@
 					<li><a href="/tourism#beyond"><?php echo e(__('footer.beyond')); ?></a></li>
 					<li><a href="/tourism#attraction"><?php echo e(__('footer.attraction')); ?></a></li>
 				</ul>
+				<!-- <h5>Link</h5> -->
+			</div>
+			<!-- Menambahkan Link Kemenparekraf -->
+			<div class="col-12 col-md-1">
+				<h5><?php echo e(__('footer.link')); ?></h5>
+				<ul class="list-unstyled">
+					<li><a href="https://kemenparekraf.go.id/"><?php echo e(__('footer.kemenparekraf')); ?></a></li>
+				</ul>
 			</div>
 			<div class="col-12 col-md-4 ml-auto">
 				<img src="<?php echo e(asset('assets/img/logo.png')); ?>" class="footer-logo" alt="Logo" height="80">

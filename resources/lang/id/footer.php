@@ -22,6 +22,8 @@
     "privacyPolicy" => "Privasi & Persyaratan Badan Otorita Pariwisata",
     "about_tourism" => "Tentang",
     "explore" => "Jelajahi",
+    "link" => "Link",
+    "kemenparekraf" => "Kemenparekraf",
   ]
 
 ?>
