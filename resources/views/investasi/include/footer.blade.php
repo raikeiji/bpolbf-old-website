@@ -22,6 +22,13 @@
 					<li><a href="/tourism#attraction">{{ __('footer.attraction') }}</a></li>
 				</ul>
 			</div>
+			<!-- Menambahkan Link Kemenparekraf -->
+			<div class="col-12 col-md-1">
+				<h5>{{ __('footer.link') }}</h5>
+				<ul class="list-unstyled">
+					<li><a href="https://kemenparekraf.go.id/">{{ __('footer.kemenparekraf') }}</a></li>
+				</ul>
+			</div>
 			<div class="col-12 col-md-4 ml-auto">
 				<img src="{{asset('assets/img/logo.png')}}" class="footer-logo" alt="Logo" height="80">
 				<p class="footer-address">{!! $footer->alamat !!}</p>
