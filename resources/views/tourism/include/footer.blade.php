@@ -20,11 +20,12 @@
 					<li><a href="{{route('t.calendar_event')}}">{{ __('footer.attraction') }}</a></li>
 				</ul>
 			</div>
-			<!-- Menambahkan Link Kemenparekraf -->
+			<!-- Menambahkan Link Kemenparekraf dan Kedaireka-->
 			<div class="col-12 col-md-1">
 				<h5>{{ __('footer.link') }}</h5>
 				<ul class="list-unstyled">
 					<li><a href="https://kemenparekraf.go.id/">{{ __('footer.kemenparekraf') }}</a></li>
+					<li><a href="https://kedairekalabuanbajo.org/">{{ __('footer.kedaireka') }}</a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-md-4 ml-auto">

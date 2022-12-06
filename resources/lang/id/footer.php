@@ -24,6 +24,7 @@
     "explore" => "Jelajahi",
     "link" => "Link",
     "kemenparekraf" => "Kemenparekraf",
+    "kedaireka" => "Kedaireka",
   ]
 
 ?>

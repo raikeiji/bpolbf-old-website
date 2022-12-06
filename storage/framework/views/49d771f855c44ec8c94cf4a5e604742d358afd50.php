@@ -28,11 +28,12 @@
 				</ul>
 				<!-- <h5>Link</h5> -->
 			</div>
-			<!-- Menambahkan Link Kemenparekraf -->
+			<!-- Menambahkan Link Kemenparekraf dan Kedaireka-->
 			<div class="col-12 col-md-1">
 				<h5><?php echo e(__('footer.link')); ?></h5>
 				<ul class="list-unstyled">
 					<li><a href="https://kemenparekraf.go.id/"><?php echo e(__('footer.kemenparekraf')); ?></a></li>
+					<li><a href="https://kedairekalabuanbajo.org/"><?php echo e(__('footer.kedaireka')); ?></a></li>
 				</ul>
 			</div>
 			<div class="col-12 col-md-4 ml-auto">
