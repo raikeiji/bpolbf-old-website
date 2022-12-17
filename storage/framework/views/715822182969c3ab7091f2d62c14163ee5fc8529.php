@@ -127,7 +127,7 @@
                         $("#toast-success").toast('show');
                         setTimeout(function(){
                             $(".cover-spin").fadeOut(500)
-                            window.location.href=window.location.href;
+                            window.location.href='/admin-page/tourism/resto';
                         }, 1000);
                     } else {
                         $("#toast-error-content").html("Gagal menghapus "+del_nama);

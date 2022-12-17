@@ -132,6 +132,15 @@ LBFTA - Edit Report
                                             </fieldset>
                                         </div>
                                         <div class="col-sm-12 col-lg-12 col-md-12">
+                                            <fieldset class="form-group">
+                                                <label for="basicInputFile">Dokumen Pendukung (PDF)<span class="text-red"></span></label>
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" name="dokumen_pdf" id="dokumen_pdf" accept="application/pdf">
+                                                    <label class="custom-file-label" for="dokumen_pdf">Pilih File</label>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-sm-12 col-lg-12 col-md-12">
                                             <button type="button" id="upload-result" class="btn btn-primary float-right" style="margin-top: 25px;">Simpan</button>
                                         </div>
                                     </div>
@@ -268,6 +277,14 @@ LBFTA - Edit Report
                 input.click();
             }
         });
+        var uploadField = document.getElementById("dokumen_pdf");
+
+        uploadField.onchange = function() {
+            if(this.files[0].size > 2000000){
+            alert("Ukuran File Terlalu Besar, Pastikan File Anda Kurang Dari 2 MB");
+            this.value = "";
+            };
+        };
     </script>
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>" />
 <?php $__env->stopSection(); ?>
